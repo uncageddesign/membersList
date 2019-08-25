@@ -14,19 +14,34 @@ fieldset {
   border: none;
 }
 
+form {
+  margin: 20px 50px 20px 20px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
 .container {
   background-color: rgba(00, 00, 00, 0.5);
-  border: 2px solid white;
   border-radius: 5px;
   padding: 15px;
   max-width: 600px;
   margin: auto;
 }
 
+.logo {
+  max-width: 60px;
+  max-height: 60px;
+  margin: 10px 20px 10px 10px;
+  float: left;
+}
+
 .entry {
   background-color: whitesmoke;
   color: black;
   padding: 20px 50px 20px 20px;
-  margin-top: 10px;
-  width: 420px;
+  margin-top: 15px;
+  margin-left: 5px;
+  width: 520px;
 }
