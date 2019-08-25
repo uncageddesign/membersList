@@ -1,0 +1,32 @@
+body {
+  font-family: lato;
+  background-image: url('HD.jpg');
+  background-size: cover;
+  background-color: black;
+  color: white;
+}
+
+div {
+  margin-top: 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+.container {
+  background-color: rgba(00, 00, 00, 0.5);
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 15px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.entry {
+  background-color: whitesmoke;
+  color: black;
+  padding: 20px 50px 20px 20px;
+  margin-top: 10px;
+  width: 420px;
+}
