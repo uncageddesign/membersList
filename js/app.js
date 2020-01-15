@@ -3,6 +3,18 @@ document.addEventListener('DOMContentLoaded', () => {
 const form = document.querySelector('#new-member-form');
 const currentMembers = document.querySelector('#currentMembers');
 
+// const seedData = [
+//   {name: 'Jock McCrindle', bike: 'Harley Davidson Fatboy', position: 'Driver', memberType: 'Full'},
+//   {name: 'Helen McCrindle', bike: 'NA', position: 'Pillion', memberType: 'Full'},
+//   {name: 'Kevin McKnight', bike: 'Honda X4', position: 'Driver', memberType: 'Full'},
+//   {name: 'Sonny Barger', bike: 'Harley Davidson Ultraglide', position: 'Driver', memberType: 'Prospective'},
+// ];
+//
+// seedData.forEach((currentMembers) => {
+//   const starter = createListItem(currentMembers);
+//   newEntry.classList.add('entry')
+// });
+
 form.addEventListener('submit', (event) => {
 
   event.preventDefault();
@@ -12,7 +24,7 @@ form.addEventListener('submit', (event) => {
   const memberType = event.target.memberType.value;
 
   const newEntry = document.createElement('p')
-    newEntry.textContent = `Name: ${name}, Bike: ${bike}, Riding Position: ${position}, Member Level: ${memberType}`;
+    newEntry.innerHTML = `Name: ${name} </br> Bike: ${bike} </br> Riding Position: ${position} </br> Member Level: ${memberType}`;
     newEntry.classList.add('entry');
 
   currentMembers.appendChild(newEntry);
@@ -32,8 +44,6 @@ const deleteButton = document.createElement('button');
  })
 
 currentMembers.appendChild(deleteButton);
-
-
 
 
 }); //final brackets do not remove

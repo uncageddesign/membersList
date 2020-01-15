@@ -1,5 +1,5 @@
 body {
-  font-family: raleway;
+  font-family: lato;
   background-image: url('HD.jpg');
   background-size: cover;
   background-color: black;
@@ -24,6 +24,7 @@ h2 {
 
 .container {
   background-color: rgba(00, 00, 00, 0.5);
+  box-shadow: 5px 5px 5px rgba(00, 00, 00, 0.3);
   border-radius: 5px;
   padding: 15px;
   max-width: 600px;
